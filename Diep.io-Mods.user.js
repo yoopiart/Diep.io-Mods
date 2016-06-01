@@ -28,7 +28,7 @@ if(navigator.userAgent.toLowerCase().indexOf('firefox') != -1) {
 					var oriScript = f.responseText;
 					GM_xmlhttpRequest({
 						method: "GET",
-						url: "https://greasyfork.org/scripts/20114-diepiomod/code/diepiomod.js",
+						url: "https://raw.githubusercontent.com/RikyLymback/Diep.io-Mods/master/DiepCanvasMod.js",
 						onload: function(g) {
 							var modScript = g.responseText;
 							var finalScript = combineScript(oriScript, modScript);
