@@ -3,14 +3,14 @@ var colorScheme = {
 	'rgb(245,245,245)':		'rgb(222,222,222)',		// name
 	'rgb(255,255,255)':		'rgb(255,255,255)',		// all text except name
 	'rgb(0,0,0)':			'rgb(0,0,0)',			// black overlays usually semi opaque
-	'rgb(0,178,225)':		'rgb(22,99,222)',		// blue tank
+	'rgb(0,178,225)':		'rgb(22,99,222)',		// blue tank / blue team bullet
 	'rgb(241,78,84)':		'rgb(222,22,22)',		// red tank / ffa bullet
 	'rgb(153,153,153)':		'rgb(55,55,55)',		// tank's nozzle
 	'rgb(85,85,85)':		'rgb(10,10,10)',		// outline for objects, names and healthbar
 
 	'rgb(255,232,105)':		'rgb(255,222,55)',		// square
 	'rgb(252,118,119)':		'rgb(255,66,33)',		// triangle
-	'rgb(118,141,252)':		'rgb(111,55,255)',		// hexagon
+	'rgb(118,141,252)':		'rgb(111,55,255)',		// pentagon
 	'rgb(241,119,221)':		'rgb(255,111,255)',		// triangle bot
 	'rgb(252,195,118)':		'rgb(255,155,55)',		// square minion
 
