@@ -3,8 +3,8 @@ var colorScheme = {
 	'rgb(245,245,245)':		'rgb(222,222,222)',		// name
 	'rgb(255,255,255)':		'rgb(255,255,255)',		// all text except name
 	'rgb(0,0,0)':			'rgb(0,0,0)',			// black overlays usually semi opaque
-	'rgb(0,178,225)':		'rgb(22,99,222)',		// blue tank / blue team bullet
-	'rgb(241,78,84)':		'rgb(222,22,22)',		// red tank / ffa bullet
+	'rgb(0,178,225)':		'rgb(22,99,222)',		// ffa & blue tank / blue team bullet
+	'rgb(241,78,84)':		'rgb(222,22,22)',		// red team tank / ffa bullet
 	'rgb(153,153,153)':		'rgb(55,55,55)',		// tank's nozzle
 	'rgb(85,85,85)':		'rgb(10,10,10)',		// outline for objects, names and healthbar
 
@@ -17,11 +17,11 @@ var colorScheme = {
 	'rgb(252,173,118)':		'rgb(252,173,118)',		// stat - hp regen
 	'rgb(249,67,255)':		'rgb(249,67,255)',		// stat - max hp
 	'rgb(133,67,255)':		'rgb(133,67,255)',		// stat - body dmg
-	'rgb(67,127,255)':		'rgb(67,127,255)',		// stat - bullet speed
-	'rgb(255,222,67)':		'rgb(255,222,67)',		// stat - bullet penetration
-	'rgb(255,67,67)':		'rgb(255,67,67)',		// stat - bullet damage
+	'rgb(67,127,255)':		'rgb(67,127,255)',		// stat - bullet spd
+	'rgb(255,222,67)':		'rgb(255,222,67)',		// stat - bullet pene
+	'rgb(255,67,67)':		'rgb(255,67,67)',		// stat - bullet dmg
 	'rgb(130,255,67)':		'rgb(130,255,67)',		// stat - reload
-	'rgb(67,255,249)':		'rgb(67,255,249)',		// stat - move speed
+	'rgb(67,255,249)':		'rgb(67,255,249)',		// stat - move spd
 };
 
 var debug_logc = true, debug_colors = [], debug_text = '';
@@ -225,7 +225,7 @@ function modCanvas() {
 			'Quad Tank': [ 'Octo Tank' ],
 			'Twin Flank': [ 'Octo Tank', 'Triple Twin' ],
 			'Overseer': [ 'Overlord', 'Necromancer' ],
-			'Assassin': [ 'Stalker' ],
+			'Assassin': [ 'Stalker', 'Ranger' ],
 		},
 		'titlePos': [ 59, 22 ],
 		'buttonWidth': 62,
