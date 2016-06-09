@@ -57,7 +57,7 @@ window.onbeforeunload = function() { return 'Quit game?'; };
 function editPanels() {
 	optionsDiv = document.createElement('div');
 	optionsDiv.id = 'gameOptions';
-	optionsDiv.style = 'position: absolute; display: none; top: 60%; left: 50%; transform: translate(-50%, 0%); width: 340px; padding: 6px 12px; border: 2px dashed #333; background-color: #EEE; color: #000; font-family: Tahoma; font-size: 12px;';
+	optionsDiv.style = 'position: absolute; display: none; top: 60%; left: 50%; transform: translate(-50%, 0%); width: 340px; padding: 6px 12px; border: 2px solid #333; background-color: #EEE; color: #000; font-family: Tahoma; font-size: 12px;';
 	optionsDiv.innerHTML = '<div></div><div></div><div></div>';
 	document.body.insertBefore(optionsDiv, nick.parentElement.nextElementSibling);
 	optionsDiv.children[0].style = 'margin-bottom: 4px; padding-bottom: 6px; border-bottom: 1px solid #888; font-family: Ubuntu; font-size: 16px; text-align: center';
@@ -68,7 +68,6 @@ function editPanels() {
 	optionsDiv.children[1].innerHTML += '<div><strong>(X)</strong><label><input type="checkbox" id="optnAutoFire">Auto fire</label></div>';
 	optionsDiv.children[1].innerHTML += '<div><strong>(C)</strong><label><input type="checkbox" id="optn4x3">4:3 aspect</label></div>';
 	optionsDiv.children[1].innerHTML += '<div><strong>(V)</strong><label><input type="checkbox" id="optnDarkTheme">Dark theme</label></div>';
-	optionsDiv.children[2].innerHTML += 'Mod by condoriano. <a style="color: blue; text-decoration: none;" target="_blank" href="https://greasyfork.org/en/scripts/19892-diep-io-auto-respawn-mod">Homepage</a> - <a style="color: blue; text-decoration: none;" target="_blank" href="http://pastebin.com/raw/MQGQLuiy">Source</a> <form style="display: inline-block;" id="donate-mod" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank"><input name="cmd" value="_donations" type="hidden"><input name="business" value="keyzint@gmail.com" type="hidden"><input name="lc" value="US" type="hidden"><input name="item_name" value="Donation" type="hidden"><input name="no_note" value="0" type="hidden"><input name="currency_code" value="USD" type="hidden"><input name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest" type="hidden"><input style="height: 11px; vertical-align: bottom; margin-left: 5px;" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" alt="PayPal btn" border="0" type="image"><img src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" alt="" height="1" border="0" width="1"></form>';
 
 	popupsDiv = document.createElement('div');
 	popupsDiv.id = 'notificationPopups';
