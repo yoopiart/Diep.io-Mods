@@ -219,19 +219,21 @@ function modCanvas() {
 		'tankList': {
 			'Twin': [ 'Triple Shot', 'Quad Tank', 'Twin Flank' ],
 			'Sniper': [ 'Assassin', 'Overseer', 'Hunter' ],
-			'Flank Guard': [ 'Tri-Angle', 'Quad Tank', 'Twin Flank' ],
 			'Machine Gun': [ 'Destroyer', 'Gunner' ],
+			'Flank Guard': [ 'Tri-Angle', 'Quad Tank', 'Twin Flank' ],
 			'Triple Shot': [ 'Triplet', 'Penta Shot' ],
+			'Tri-Angle': [ 'Booster', 'Fighter' ],
 			'Quad Tank': [ 'Octo Tank' ],
 			'Twin Flank': [ 'Octo Tank', 'Triple Twin' ],
-			'Overseer': [ 'Overlord', 'Necromancer' ],
-			'Assassin': [ 'Stalker', 'Ranger' ],
+			'Assassin': [ 'Ranger', 'Stalker' ],
+			'Overseer': [ 'Overlord', 'Necromancer', 'Manager' ],
+			'Destroyer': [ 'Hybrid' ]
 		},
 		'titlePos': [ 59, 22 ],
-		'buttonWidth': 62,
-		'buttonHeight': 62,
-		'buttonX': 36,
-		'buttonY': [ 44, 117, 190, 263 ],
+		'buttonWidth': 73,
+		'buttonHeight': 73,
+		'buttonX': 35,
+		'buttonY': [ 43, 120, 197, 264 ],
 	};
 	statInfo = {
 		'name': [ 'Health Regen', 'Max Health', 'Body Damage', 'Bullet Speed', 'Bullet Penetration', 'Bullet Damage', 'Reload', 'Movement Speed' ],
