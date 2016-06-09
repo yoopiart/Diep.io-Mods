@@ -1,18 +1,17 @@
 // ==UserScript==
-// @name        Diep.io Mods (evergreen)
+// @name        Diep.io Mods (Fair Edition)
 // @description Autospawn, autofire, dark theme, shortcuts and more
-// @version     26
-// @author      condoriano
-// @namespace   diepiormod
+// @version     2.6
+// @author      Riky_Lymback
+// @namespace   diepiomods
 // @include     http://diep.io/*
 // @include     https://diep.io/*
 // @run-at      document-start
 // @grant       GM_xmlhttpRequest
-// @connect     greasyfork.org
 // @connect     diep.io
 // ==/UserScript==
 
-// v26 = Fixed Upgrade Pop-Up
+// v2.6 = Fixed Upgrade Pop-Up
 
 if(navigator.userAgent.toLowerCase().indexOf('firefox') != -1) {
 	window.addEventListener('beforescriptexecute', function(e) {
